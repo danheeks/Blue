@@ -1,3 +1,4 @@
+Source: blue
 Package: blue
 Architecture: all
 Depends: wxpython
