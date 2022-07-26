@@ -1,0 +1,4 @@
+Package: blue
+Architecture: all
+Depends: wxpython
+Description: blue window
