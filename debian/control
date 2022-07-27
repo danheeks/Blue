@@ -1,5 +1,15 @@
-Source: blue
+Source: heekscad
+Section: editors
+Priority: extra
+Maintainer: Dan Heeks <danheeks@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, libopencascade-visualization-dev | liboce-visualization-dev, libwxgtk2.8-dev | libwxgtk3.0-dev | libwxgtk3.0-gtk3-dev, libgtkglext1-dev, python-dev, libarea-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/danheeks/blue
+Vcs-Git: https://github.com/danheeks/blue.git
+Vcs-Browser: https://github.com/danheeks/blue
+
 Package: blue
-Architecture: all
-Depends: wxpython
-Description: blue window
+Architecture: any
+Depends: ${shlibs:Depends}, python (>= 2.5)
+Recommends: wx2.8-i18n | wx3.0-i18n
+Description: Blue Window
