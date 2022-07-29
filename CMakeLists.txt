@@ -1,8 +1,8 @@
 project( blue )
 cmake_minimum_required( VERSION 2.6 )
 find_package(Python COMPONENTS Interpreter)
-message(STATUS "PYTHON_DEFAULT_EXECUTABLE = " ${PYTHON_DEFAULT_EXECUTABLE})
-message(STATUS "PYTHON3_EXECUTABLE = ${PYTHON3_EXECUTABLE}")
+message(STATUS "Python_Interpreter_FOUND = " ${Python_Interpreter_FOUND})
+message(STATUS "Python_EXECUTABLE = ${Python_EXECUTABLE}")
 execute_process(
   COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
     from distutils import sysconfig as sc
