@@ -1,6 +1,6 @@
 project( blue )
 cmake_minimum_required( VERSION 2.6 )
-FIND_PACKAGE(python)
+FIND_PACKAGE(python2)
 execute_process(
   COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
     from distutils import sysconfig as sc
