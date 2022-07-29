@@ -1,10 +1,9 @@
 project( blue )
 cmake_minimum_required( VERSION 2.6 )
 find_package(Python COMPONENTS Interpreter)
-message(STATUS "Python_Interpreter_FOUND = " ${Python_Interpreter_FOUND})
 message(STATUS "Python_EXECUTABLE = ${Python_EXECUTABLE}")
 execute_process(
-  COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
+  COMMAND "${Python_EXECUTABLE}" -c "if True:
     from distutils import sysconfig as sc
     print(sc.get_python_lib(prefix='', plat_specific=True))"
   OUTPUT_VARIABLE PYTHON_SITE
