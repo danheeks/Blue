@@ -1,6 +1,6 @@
 project( blue )
 cmake_minimum_required( VERSION 2.6 )
-find_package (Python)
+find_package(Python)
 message(STATUS "PYTHON_EXECUTABLE = ${PYTHON_EXECUTABLE}")
 execute_process(
   COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
