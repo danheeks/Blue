@@ -1,7 +1,7 @@
 project( blue )
 cmake_minimum_required( VERSION 2.6 )
 find_package(Python Interpreter)
-message(STATUS "PYTHON2_EXECUTABLE = ${PYTHON2_EXECUTABLE}")
+message(STATUS "PYTHON_DEFAULT_EXECUTABLE = ${PYTHON_DEFAULT_EXECUTABLE}")
 message(STATUS "PYTHON3_EXECUTABLE = ${PYTHON3_EXECUTABLE}")
 execute_process(
   COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
