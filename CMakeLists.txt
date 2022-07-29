@@ -1,3 +1,10 @@
 project( blue )
 cmake_minimum_required( VERSION 2.6 )
-install( FILES "${CMAKE_CURRENT_SOURCE_DIR}/blue.py" DESTINATION ${LIB_INSTALL_DIR}/blue )
+execute_process(
+  COMMAND "${PYTHON_EXECUTABLE}" -c "if True:
+    from distutils import sysconfig as sc
+    print(sc.get_python_lib(prefix='', plat_specific=True))"
+  OUTPUT_VARIABLE PYTHON_SITE
+  OUTPUT_STRIP_TRAILING_WHITESPACE)
+
+install( FILES "${CMAKE_CURRENT_SOURCE_DIR}/blue.py" DESTINATION ${PYTHON_SITE}/blue )
