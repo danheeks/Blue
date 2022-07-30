@@ -10,6 +10,6 @@ Vcs-Browser: https://github.com/danheeks/blue
 
 Package: blue
 Architecture: any
-Depends: ${shlibs:Depends}, python (>= 3.6), wxpython
+Depends: ${shlibs:Depends}, python3 (>= 3.6)
 Recommends: wx2.8-i18n | wx3.0-i18n
 Description: Blue Window
