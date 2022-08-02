@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/blue.sh
+Icon=Blue
+Terminal=false
+Name=Blue
+GenericName=Blue
+Comment=Blue simply makes a blue window
+Categories=Graphics;Engineering;3DGraphics;
