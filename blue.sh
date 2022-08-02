@@ -1,1 +1,1 @@
-python3 ../blue/blue.py
+python3 /usr/blue/blue.py
