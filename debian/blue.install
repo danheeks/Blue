@@ -1,4 +1,2 @@
-usr/bin/blue
-usr/share/applications/Blue.desktop
-usr/share/icons/hicolor/scalable/apps/blue.svg
-usr/share/locale
+Blue.desktop usr/share/applications
+blue.svg usr/share/icons/hicolor/scalable/apps
