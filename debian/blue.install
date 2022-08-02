@@ -1,2 +1,3 @@
 Blue.desktop usr/share/applications
 Blue.svg usr/share/icons/hicolor/scalable/apps
+blue.sh usr/bin
