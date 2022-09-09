@@ -3,8 +3,9 @@ test of distributing a wxPython app
 
 Simply draws a blue window
 
-I made a launchpad repository, which mirrors this github repository.
-I made a launchpad recipe, which builds the Ubuntu package.
+I made a launchpad repository, which mirrors this github repository and a launchpad recipe, which builds the Ubuntu package.
+
+https://code.launchpad.net/~danheeks/+recipe/blue-daily
 
 It works for Ubuntu 22.04.
 
